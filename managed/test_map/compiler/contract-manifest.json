@@ -1,0 +1,78 @@
+{
+  "manifest-version": "1",
+  "compiler-version": "0.34.0",
+  "language-version": "0.26.0",
+  "runtime-version": "0.19.0",
+  "compiler": {
+    "type": "directory",
+    "contract-info.json": {
+      "type": "file",
+      "size": 1406,
+      "hash": "adbe6456504545516a0a3f144ab9d4d22515b3e66acd63ce92195420b60d5bb8"
+    }
+  },
+  "contract": {
+    "type": "directory",
+    "index.d.ts": {
+      "type": "file",
+      "size": 2131,
+      "hash": "596b7b7197231bf0e86a7a74839c0db7ab2f1b0fbdbb8dace7b9aea9076e9af6"
+    },
+    "index.js": {
+      "type": "file",
+      "size": 24666,
+      "hash": "feb2ecf379c7007c2de9c52501b9235acc98211cd2b19b4612cca9438f858590"
+    },
+    "index.js.map": {
+      "type": "file",
+      "size": 923,
+      "hash": "0e0ddab34fdd7d567e9bce0b7f0c9123520a9ef581265d5a462e8db71101228e"
+    }
+  },
+  "zkir": {
+    "type": "directory",
+    "add_comm.bzkir": {
+      "type": "file",
+      "size": 111,
+      "hash": "1e4ce1a0a6438cfb44455fb09306c6c30908c741c83257cf2af9cd5af7e9ffc8"
+    },
+    "add_comm.zkir": {
+      "type": "file",
+      "size": 1652,
+      "hash": "0a89aa2da19a158ee916cffea8d85809d2c28774c4af8b8f047c05a957344314"
+    },
+    "verify.bzkir": {
+      "type": "file",
+      "size": 111,
+      "hash": "3d4ba4b3f9553d2b0934679c10cd1e68a7648f4eb73e334405e995d73690778f"
+    },
+    "verify.zkir": {
+      "type": "file",
+      "size": 1655,
+      "hash": "a95caea555d14bb5ae54bec59a9d5a94e9f925eea24ab0e75755704e0d7fabad"
+    }
+  },
+  "keys": {
+    "type": "directory",
+    "add_comm.prover": {
+      "type": "file",
+      "size": 146775,
+      "hash": "e98037246403a9e33f1d5294d1e5965883a64700a9173b559ccea9f6277ea32b"
+    },
+    "add_comm.verifier": {
+      "type": "file",
+      "size": 1351,
+      "hash": "98eb1c6bea7bc663e264a08b9861ce9371fefe8bc436f02d6e1e68b80d6df597"
+    },
+    "verify.prover": {
+      "type": "file",
+      "size": 146865,
+      "hash": "3cd2468722f07e4a75e447cef8f892bdc7a31bcfc332dd1f2d87e047fba7c189"
+    },
+    "verify.verifier": {
+      "type": "file",
+      "size": 1351,
+      "hash": "f8003ea274c5a1073989ddb0ed612b738c24581e06e1b5d6677d6c5667ab8fcf"
+    }
+  }
+}

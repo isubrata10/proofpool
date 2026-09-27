@@ -1,0 +1,38 @@
+pragma language_version >= 0.23;
+
+import CompactStandardLibrary;
+
+export ledger funding_target: Uint<32>;
+export ledger eligibility_threshold: Uint<32>;
+export ledger total_contributors: Uint<32>;
+export ledger commitments: Map<Bytes<32>, Bytes<32>>;
+
+struct CommitmentData {
+    amount: Uint<32>;
+    secret: Bytes<32>;
+}
+
+constructor(target: Uint<32>, threshold: Uint<32>) {
+    funding_target = disclose(target);
+    eligibility_threshold = disclose(threshold);
+    total_contributors = 0;
+}
+
+export circuit contribute(contributor_id: Bytes<32>, amount: Uint<32>, secret: Bytes<32>): [] {
+    assert(!commitments.member(disclose(contributor_id)), "Already contributed");
+    
+    const data = CommitmentData { amount: amount, secret: secret };
+    const commitment = persistentHash<CommitmentData>(data);
+    
+    commitments.insert(disclose(contributor_id), disclose(commitment));
+    total_contributors = disclose((total_contributors + 1) as Uint<32>);
+}
+
+export circuit verify_eligibility(contributor_id: Bytes<32>, amount: Uint<32>, secret: Bytes<32>): [] {
+    const data = CommitmentData { amount: amount, secret: secret };
+    const computed_commitment = persistentHash<CommitmentData>(data);
+    
+    const stored_commitment = commitments.lookup(disclose(contributor_id));
+    assert(stored_commitment == computed_commitment, "Invalid commitment");
+    assert(amount >= eligibility_threshold, "Threshold not met");
+}

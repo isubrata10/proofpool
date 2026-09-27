@@ -1,0 +1,10 @@
+pragma language_version >= 0.23;
+import CompactStandardLibrary;
+struct CommitmentData {
+    amount: Uint<32>;
+    secret: Bytes<32>;
+}
+export circuit hash_test(amount: Uint<32>, secret: Bytes<32>): Bytes<32> {
+    const data = CommitmentData { amount: amount, secret: secret };
+    return persistentHash<CommitmentData>(data);
+}

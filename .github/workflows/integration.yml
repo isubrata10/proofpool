@@ -1,0 +1,38 @@
+name: Midnight Integration Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  integration-test:
+    runs-on: ubuntu-latest
+    env:
+      MIDNIGHT_WALLET_SEED: ${{ secrets.MIDNIGHT_WALLET_SEED }}
+      VITE_COUNTER_CONTRACT_ADDRESS: ${{ secrets.MIDNIGHT_CONTRACT_ADDRESS }}
+      MIDNIGHT_NETWORK: preprod
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Verify Secrets
+      run: |
+        if [ -z "$MIDNIGHT_WALLET_SEED" ]; then
+          echo "Error: MIDNIGHT_WALLET_SEED secret is not configured."
+          exit 1
+        fi
+        if [ -z "$VITE_COUNTER_CONTRACT_ADDRESS" ]; then
+          echo "Error: MIDNIGHT_CONTRACT_ADDRESS secret is not configured."
+          exit 1
+        fi
+
+    - name: Setup Node.js v22
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+        cache: 'npm'
+
+    - name: Install Dependencies
+      run: npm ci
+
+    - name: Run Integration Suite
+      run: npm run test:integration

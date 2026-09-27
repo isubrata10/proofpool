@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../../../",
+  "sources": ["contracts/test_member.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAAA;;;;;;;;;;MAKA,AAAA,UAGC;;;;;cAHyB,gBAAyB;;;;;;;;;;;;;;;;;;yCAAzB,gBAAyB;;;;;;;;;kDAAzB,gBAAyB;;;;OAGlD;;;;GACA;EATD;;;;;;;;;;;;;;;;;;;;;;;;;;IAGA;;;;;;;;;;yEAAqD;;;;;;;GAMpD;EAJD,AAAA,mBAGC,4BAHyB,gBAAyB;qDACvC;;;;;;;;;;;4KAA4B,gBAAc;;;;0HAA/B;;IACnB;;;;;;;;;;2HAA4B,gBAAc;;;2HAAY,gBAAc;;;wEAAzD;;GACd;;;;;;;;;;;;;;;;IALD;;;;;uCAAA;;;;;;;;;;;;;;;;4GAAqD;;;;;;uCAArD;;;;;;;;;;;;4GAAqD;;;;;;;;;;;;;;uCAArD;;;;;;;;;;;;;;;4GAAqD;;;;;;;;;;;;;;uCAArD;;;;;;;;;;;;;;;;;4GAAqD;;;;;;;;;KAAA;;;;;;;;;;;;;;"
+}

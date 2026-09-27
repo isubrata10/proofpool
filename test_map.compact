@@ -1,0 +1,12 @@
+pragma language_version >= 0.23;
+import CompactStandardLibrary;
+
+export ledger commitments: Map<Uint<32>, Bytes<32>>;
+
+export circuit add_comm(key: Uint<32>, val: Bytes<32>): [] {
+    commitments.insert(disclose(key), disclose(val));
+}
+
+export circuit verify(key: Uint<32>, val: Bytes<32>): [] {
+    assert(commitments.lookup(disclose(key)) == disclose(val), "invalid");
+}

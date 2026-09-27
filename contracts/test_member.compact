@@ -1,0 +1,9 @@
+pragma language_version >= 0.23;
+import CompactStandardLibrary;
+
+export ledger commitments: Map<Bytes<32>, Bytes<32>>;
+
+export circuit contribute(contributor_id: Bytes<32>): [] {
+    assert(!commitments.member(disclose(contributor_id)), "Already contributed");
+    commitments.insert(disclose(contributor_id), disclose(contributor_id));
+}

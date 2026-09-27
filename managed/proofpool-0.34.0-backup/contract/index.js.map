@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../../../",
+  "sources": ["contracts/proofpool.compact", "compiler/zkir-v3-library.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAcA;;;;;;;;;;MAMA,AAAA,UAQC;;;;;cARyB,gBAAyB;cAAE,QAAgB;cAAE,QAAiB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;yCAA9D,gBAAyB,+BAAE,QAAgB,+BAAE,QAAiB;;;;;;;;;kDAA9D,gBAAyB;kDAAE,QAAgB;kDAAE,QAAiB;;;;OAQvF;MAED,AAAA,kBAOC;;;;;cAPiC,gBAAyB;cAAE,QAAgB;cAAE,QAAiB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;yCAA9D,gBAAyB,+BAAE,QAAgB,+BAAE,QAAiB;;;;;;;;;0DAA9D,gBAAyB;0DAAE,QAAgB;0DAAE,QAAiB;;;;OAO/F;;;;;;;;;;GAnBA;EAJD;;;;;UAAY,QAAgB;UAAE,WAAmB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;IAVjD;;;;;;;;;yEAAuC;IACvC;;;;;;;;;yEAA8C;IAC9C;;;;;;;;;yEAA2C;IAC3C;;;;;;;;;;yEAAqD;IAQjD;;;;;;;2HAA0B,QAAM;;yEAAlB;IACd;;;;;;;2HAAiC,WAAS;;yEAArB;UACrB,KAAkB;IAAlB;;;;;;;2HAAA,KAAkB;;yEAAA;;;;;;;GACrB;EClBD,AAAA,kBAAA;oEAAA;;;EDoBA,AAAA,mBAQC;;sBARyB,gBAAyB;sBAAE,QAAgB;sBAAE,QAAiB;;qDAC5E;;;;;;;;;;;4KAA4B,gBAAc;;;;0HAA/B;;UAEb,MAAwD,aAAxB,QAAM,UAAU,QAAM;UACtD,YAAiD,0BAAL,MAAI;IAEtD;;;;;;;;;;2HAA4B,gBAAc;;;2HAAY,YAAU;;;wEAArD;UACX,KAAkB;;;;;6CAAa;;;;;;;;;;;kHAAkB;;;IAAjD;;;;;;;2HAAA,KAAkB;;yEAAA;;GACrB;EAED,AAAA,2BAOC;;8BAPiC,gBAAyB;8BAAE,QAAgB;8BAAE,QAAiB;;UACtF,MAAwD,aAAxB,QAAM,UAAU,QAAM;UACtD,qBAA0D,0BAAL,MAAI;UAEzD,mBAAgE,2BAA5C;;;;;;;;;;;;;;mJAA4B,gBAAc;;;6HAA/B;0CAC9B,mBAAiB;0CAAI,qBAAmB;;4BACxC,QAAM;;oDAAI;;;;;;;;;;;yHAAqB;;;GACzC;;;;;;;;;;;;;;;;;;;;IAjCD;qCAAA;;;;;;;;;;;0GAAuC;KAAA;IACvC;qCAAA;;;;;;;;;;;0GAA8C;KAAA;IAC9C;qCAAA;;;;;;;;;;;0GAA2C;KAAA;IAC3C;;;;;uCAAA;;;;;;;;;;;;;;;;4GAAqD;;;;;;uCAArD;;;;;;;;;;;;4GAAqD;;;;;;;;;;;;;;uCAArD;;;;;;;;;;;;;;;4GAAqD;;;;;;;;;;;;;;uCAArD;;;;;;;;;;;;;;;;;4GAAqD;;;;;;;;;KAAA;;;;;;;;;;;;;;;"
+}

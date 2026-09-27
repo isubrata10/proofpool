@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../../../",
+  "sources": ["test_map.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAAA;;;;;;;;;;MAKA,AAAA,QAEC;;;;;cAFuB,KAAa;cAAE,KAAc;;;;;;;;;;;;;;;;;;;;;;;;;yCAA7B,KAAa,+BAAE,KAAc;;;;;;;;;gDAA7B,KAAa;gDAAE,KAAc;;;;OAEpD;MAED,AAAA,MAEC;;;;;cAFqB,KAAa;cAAE,KAAc;;;;;;;;;;;;;;;;;;;;;;;;;yCAA7B,KAAa,+BAAE,KAAc;;;;;;;;;8CAA7B,KAAa;8CAAE,KAAc;;;;OAElD;;;;;;;;;;GACA;EAZD;;;;;;;;;;;;;;;;;;;;;;;;;;;IAGA;;;;;;;;;;yEAAoD;;;;;;;GASnD;EAPD,AAAA,iBAEC,4BAFuB,KAAa,EAAE,KAAc;IACjD;;;;;;;;;;2HAA4B,KAAG;;;2HAAY,KAAG;;;wEAAnC;;GACd;EAED,AAAA,eAEC,4BAFqB,KAAa,EAAE,KAAc;kEACxC;;;;;;;;;;;;;;6JAA4B,KAAG;;;uIAApB;0CAAmC,KAAG;;;GAC3D;;;;;;;;;;;;;;;;;;;;IARD;;;;;uCAAA;;;;;;;;;;;;;;;;4GAAoD;;;;;;uCAApD;;;;;;;;;;;;4GAAoD;;;;;;;;;;;;;;uCAApD;;;;;;;;;;;;;;;4GAAoD;;;;;;;;;;;;;;uCAApD;;;;;;;;;;;;;;;;;4GAAoD;;;;;;;;;KAAA;;;;;;;;;;;;;;;"
+}

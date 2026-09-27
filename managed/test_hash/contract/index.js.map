@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../../../",
+  "sources": ["test_hash.compact", "compiler/zkir-v3-library.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAAA;;;;;;;;;;MAMA,MAAA,SAGC;;OAAA;;;;GACA;EAVD;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAUC;ECVD,AAAA,kBAAA;oEAAA;;;EDMA,AAAA,YAGC,CAHwB,QAAgB,EAAE,QAAiB;UAClD,MAAwD,aAAxB,QAAM,UAAU,QAAM;kCACtB,MAAI;GAC7C;;;;;;;;;;;;;;;;;;;;;;;EAHD,AAAA,SAGC;;;;UAHwB,QAAgB;UAAE,QAAiB;;;;;;;;;;;;;;;uCAAnC,QAAgB,EAAE,QAAiB;GAG3D;;;;;;"
+}
