@@ -10,3 +10,12 @@ subJs = subJs.replace(
 
 fs.writeFileSync(subJsPath, subJs);
 console.log('Fixed Subscription.js');
+
+const wsClientPath = 'node_modules/@midnight-ntwrk/wallet-sdk-indexer-client/dist/effect/WsSubscriptionClient.js';
+let wsContent = fs.readFileSync(wsClientPath, 'utf8');
+wsContent = wsContent.replace(
+  /shouldRetry: \(\) => false/g,
+  'shouldRetry: () => true'
+);
+fs.writeFileSync(wsClientPath, wsContent);
+console.log('Fixed WsSubscriptionClient.js (enabled retry)');
